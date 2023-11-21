@@ -11,7 +11,7 @@ Servo servoNumber1;
 void setup() {
   servoNumber1.attach(7);
   servoNumber1.write(0);
-}
+} 
 
 void loop() {
   servoNumber1.write(180);
